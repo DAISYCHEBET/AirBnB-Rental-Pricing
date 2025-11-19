@@ -5,6 +5,9 @@ ML Zoomcamp Midterm Project – 2025
 This project predicts Airbnb rental prices based on listing features.
 It includes data cleaning, model training, evaluation, and a fully packaged FastAPI web service deployed using Docker.
 
+
+
+
 📌 Project Overview
 
 Airbnb hosts often struggle to price their listings accurately.
@@ -161,7 +164,7 @@ http://127.0.0.1:8000/docs
 
 To reproduce the project:
 
-git clone <repo_url>
+git clone <https://github.com/DAISYCHEBET/AirBnB-Rental-Pricing>
 cd AirBnB-Rental-Pricing
 pip install -r requirements.txt
 python serve.py
@@ -171,6 +174,7 @@ Or run via Docker (recommended):
 
 docker build -t airbnb-price-api .
 docker run -p 8000:8000 airbnb-price-api
+
 
 📝 Final Notes
 
@@ -188,5 +192,5 @@ API design
 
 Author
 
-Daisy
+Daisy Chebet
 Kenya 🇰🇪
