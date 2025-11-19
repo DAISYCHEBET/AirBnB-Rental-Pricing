@@ -24,23 +24,6 @@ And other listing features
 
 The final model is served as an API using FastAPI, with deployment handled via Docker.
 
-📂 Repository Structure
-AirBnB-Rental-Pricing/
-│
-├── data/                     # Dataset 
-│
-├── train.py                  # Script to train the model
-├── predict.py                # Helper script to load the model and make predictions
-├── serve.py                  # FastAPI app for serving predictions
-│
-├── model.pkl                 # Saved trained model
-├── requirements.txt          # Project dependencies
-├── Dockerfile                # Docker configuration
-│
-└── README.md                 # This file
-
-
-
 
 
 
@@ -98,6 +81,9 @@ Preprocesses incoming data
 
 Returns the predicted rental price
 
+
+
+
 🌐 4. API Service (FastAPI)
 
 The API is defined in:
@@ -132,6 +118,9 @@ Example response:
 {
   "predicted_price": 68.4
 }
+
+
+
 
 🐳 5. Docker Deployment
 Build the image
