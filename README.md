@@ -1,4 +1,4 @@
-#🏡 Airbnb Rental Price Prediction
+# 🏡 Airbnb Rental Price Prediction
 
 ML Zoomcamp Midterm Project – 2025
 
