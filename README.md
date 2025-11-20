@@ -8,7 +8,7 @@ It includes data cleaning, model training, evaluation, and a fully packaged Fast
 
 
 
-###📌 Project Overview
+### 📌 Project Overview
 
 Airbnb hosts often struggle to price their listings accurately.
 This project solves that problem using a machine learning model that estimates the expected rental price of a listing based on:
@@ -30,7 +30,7 @@ The final model is served as an API using FastAPI, with deployment handled via D
 
 
 
-###🧹 1. Data Preparation & EDA
+### 🧹 1. Data Preparation & EDA
 
 Loaded and cleaned the dataset
 
@@ -48,7 +48,7 @@ Removed outliers and transformed skewed variables
 
 
 
-###🤖 2. Model Training
+### 🤖 2. Model Training
 
 Multiple models were trained and compared:
 
@@ -69,7 +69,9 @@ After tuning, the final model is saved as:
 
 model.pkl
 
-⚙️ 3. Prediction Logic
+
+
+### ⚙️ 3. Prediction Logic
 
 All inference logic is in:
 
@@ -87,7 +89,7 @@ Returns the predicted rental price
 
 
 
-###🌐 4. API Service (FastAPI)
+### 🌐 4. API Service (FastAPI)
 
 The API is defined in:
 
@@ -125,7 +127,7 @@ Example response:
 
 
 
-###🐳 5. Docker Deployment
+### 🐳 5. Docker Deployment
 Build the image
 docker build -t airbnb-price-api .
 
@@ -144,7 +146,7 @@ http://127.0.0.1:8000/docs
 
 
 
-###🧪 6. Testing the API
+### 🧪 6. Testing the API
 
 You can also send a request using curl:
 
@@ -160,7 +162,7 @@ http://127.0.0.1:8000/docs
 
 
 
-###🔁 Reproducibility
+### 🔁 Reproducibility
 
 To reproduce the project:
 
@@ -176,7 +178,7 @@ docker build -t airbnb-price-api .
 docker run -p 8000:8000 airbnb-price-api
 
 
-###📝 Final Notes
+### 📝 Final Notes
 
 This project was completed as part of the ML Zoomcamp Midterm, focusing on:
 
@@ -191,7 +193,7 @@ Dockerization
 API design
 
 
-#🪶Author
+### 🪶Author
 
 Daisy Chebet
 Kenya 🇰🇪
